@@ -32,11 +32,9 @@ $lockstatus = $Userinfo.lockedout
 if ($lockstatus -like "False") {
 
 
-#Get-Service -ComputerName qlikview -Name qlikviewserver
-#$a =Get-Service -ComputerName qlikview -Name qlikviewwebserver
-#$a.Stop()
+
 $Labelbox.Text ="Аккаунт заблокирован"
-#Unlock-ADAccount $Userinfo.SamAccountName
+
 
 
 }
